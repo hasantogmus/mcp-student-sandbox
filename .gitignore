@@ -1,0 +1,30 @@
+# Environment Variables - NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Secrets and credentials
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
